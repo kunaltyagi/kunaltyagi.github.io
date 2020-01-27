@@ -24,7 +24,7 @@ default:                                                      # Fallback if noth
   s500px:                                                     # OPTIONAL: used in the about page
   reddit:                                                     # OPTIONAL: used in the about page
 gkenobi:
-  initial:      GeneralKenobi
+  initial:      GKenobi
   name:         "Jekyll Decent"
   cover:        /assets/mountain-alternative-cover.jpg
   picture:      /assets/kenobi.png
@@ -34,12 +34,12 @@ gkenobi:
   twitter:      "-"
   twitch:       "-"
 kunaltyagi:
-  initial:      kunaltyagi
+  initial:      ktyagi
   name:         "Kunal Tyagi"
   picture:      /assets/kunaltyagi.jpg
   bio:          AI, Robotics, Trivia
   location:     Japan
 #  website:      "http://kunaltyagi.de/cv"
-#  twitter:      jenswillmer
+#  twitter:      kunaltyagi
   github:       kunaltyagi
   gitlab:       kunaltyagi
