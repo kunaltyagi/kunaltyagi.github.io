@@ -36,6 +36,7 @@ gkenobi:
 kunaltyagi:
   initial:       ktyagi
   name:          "Kunal Tyagi"
+  cover:         /assets/fuji.jpg
   picture:       /assets/kunaltyagi.jpg
   bio:           AI, Robotics, Trivia
   location:      Japan
