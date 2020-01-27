@@ -1,10 +1,10 @@
 kunaltyagi:
     profile: "I'm a Research Scientist at Rakuten Institute of Technology (Tokyo), with a focus on Robotics. My major fields of interest are Machine Learning and Artificial Intelligence, Robotics and Control Systems; oh and trivia."
     skills:
-        - "**Languages**: C++, C, Python, Rust, Go, Matlab, Java, CMake"
-        - "**Frameworks**: ROS, PyTorch, Tensorflow, OR-Tools, Kubernetes"
-        - "**Everyday tools**: git, bash, linux, Office Tools"
-        - "**Fields**: Robotics, Real Time Systems, Distributed Systems, Deep Machine Learning, Reinforcement Learning, Control Systems "
+        - " C++, C, Python, Rust, Go, Matlab, Java, CMake"
+        - " ROS, PyTorch, Tensorflow, OR-Tools, Kubernetes"
+        - " git, bash, linux, Office Tools"
+        - " Robotics, Real Time Systems, Distributed Systems, Deep Machine Learning, Reinforcement Learning, Control Systems "
     education:
         - time:             "2012 - 2017"
           location:         "Indian Institute of Technology, Bombay (IIT-Bombay)"
