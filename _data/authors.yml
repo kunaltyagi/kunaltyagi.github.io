@@ -1,10 +1,10 @@
 default:                                                      # Fallback if nothing is specified
-  initial:      robot_solidarność                             # used for author lookup in posts and for first two characters in the about page back button
-  name:         "Corín Tellado: Ultron"                       # used to display author name
-  cover:        /assets/mountain-alternative-cover.jpg        # OPTIONAL: defines location of cover image in about page
-  picture:      /assets/kenobi.png                            # OPTIONAL: author picture
-  bio:          Impossible! Perhaps the Archives Are Incomplete.  # OPTIONAL: text below author name in posts
-  location:     Kamino                                        # OPTIONAL: used to display location of the author
+  initial:       robot_solidarność                            # used for author lookup in posts and for first two characters in the about page back button
+  name:          "Corín Tellado: Ultron"                      # used to display author name
+  cover:         /assets/mountain-alternative-cover.jpg       # OPTIONAL: defines location of cover image in about page
+  picture:       /assets/kenobi.png                           # OPTIONAL: author picture
+  bio:           Impossible! Perhaps the Archives Are Incomplete.  # OPTIONAL: text below author name in posts
+  location:      Kamino                                       # OPTIONAL: used to display location of the author
   website:                                        # OPTIONAL: link to the author of a post
   email:                                                      # OPTIONAL: used in the about page
   twitter:                                                    # OPTIONAL: used in the about page
@@ -24,25 +24,25 @@ default:                                                      # Fallback if noth
   s500px:                                                     # OPTIONAL: used in the about page
   reddit:                                                     # OPTIONAL: used in the about page
 gkenobi:
-  initial:      GKenobi
-  name:         "Jekyll Decent"
-  cover:        /assets/mountain-alternative-cover.jpg
-  picture:      /assets/kenobi.png
-  bio:          Hello There!
-  location:     A galaxy far far away
-  email:        "-"
-  twitter:      "-"
-  twitch:       "-"
+  initial:       GKenobi
+  name:          "General kenobi"
+  cover:         /assets/mountain-alternative-cover.jpg
+  picture:       /assets/kenobi.png
+  bio:           Hello There!
+  location:      A galaxy far far away
+  email:         "-"
+  twitter:       "-"
+  twitch:        "-"
 kunaltyagi:
-  initial:      ktyagi
-  name:         "Kunal Tyagi"
-  picture:      /assets/kunaltyagi.jpg
-  bio:          AI, Robotics, Trivia
-  location:     Japan
-  linkedin:     "36061056"                                    # OPTIONAL: used in the about page
-  stackoverflow:"2292816"                                     # OPTIONAL: used in the about page
-  github:       kunaltyagi
-  gitlab:       kunaltyagi
-  reddit:       "kunal-tyagi"                            # OPTIONAL: used in the about page
+  initial:       ktyagi
+  name:          "Kunal Tyagi"
+  picture:       /assets/kunaltyagi.jpg
+  bio:           AI, Robotics, Trivia
+  location:      Japan
+  linkedin:      "36061056"                                   # OPTIONAL: used in the about page
+  stackoverflow: "2292816"                                    # OPTIONAL: used in the about page
+  github:        kunaltyagi
+  gitlab:        kunaltyagi
+  reddit:        "kunal-tyagi"                                # OPTIONAL: used in the about page
 #  website:      "http://kunaltyagi.de/cv"
 #  twitter:      kunaltyagi
