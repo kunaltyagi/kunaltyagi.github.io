@@ -39,7 +39,7 @@ kunaltyagi:
   picture:       /assets/kunaltyagi.jpg
   bio:           AI, Robotics, Trivia
   location:      Japan
-  linkedin:      "36061056"                                   # OPTIONAL: used in the about page
+  linkedin:      "kunal-tyagi-36061056"                       # OPTIONAL: used in the about page
   stackoverflow: "2292816"                                    # OPTIONAL: used in the about page
   github:        kunaltyagi
   gitlab:        kunaltyagi
