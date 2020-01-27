@@ -10,7 +10,7 @@ excerpt:   Who am I?
 ---
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 
-If you'd like to know more about me, please check out my [CV](../cv), my [Gitlab](https://gitlab.com/kunaltyagi) and [Github](https://github.com/kunaltyagi) with username **kunaltyagi**.
+If you'd like to know more about my past work, please check out my [CV](../cv), my [Gitlab](https://gitlab.com/kunaltyagi) and [Github](https://github.com/kunaltyagi) with username **kunaltyagi**.
 
 I love making order from chaos, learning the cross-domain details of seemingly simple phenomenon and learning trivial things.
 In my free time, I like to read fiction and sci-fi books. I prefer physical books over e-books but e-books are more convenient on the go.
