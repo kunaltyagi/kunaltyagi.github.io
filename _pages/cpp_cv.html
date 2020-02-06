@@ -27,6 +27,7 @@ excerpt:   This page contains the curriculum vitae (CV) of the author.
     </div>
 </div>
 
+{% if cv.education.size %}
 <div class="md-card shadow education">
     <div class="title icon-library">
         <h2>Education</h2>
@@ -41,6 +42,7 @@ excerpt:   This page contains the curriculum vitae (CV) of the author.
     </dl>
     {% endfor %}
 </div>
+{% endif %}
 
 <h2 class="employment-heading">Work Experience</h2>
 
