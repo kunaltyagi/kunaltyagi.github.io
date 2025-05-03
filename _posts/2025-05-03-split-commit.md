@@ -28,7 +28,7 @@ A tangled mess rivaled only by a toddler left alone with a bowl of spaghetti whi
 # The Alias
 
 Thankfully, I stumbled upon a gem buried deep in the [depths of internet](https://hisham.hm/2019/02/12/splitting-a-git-commit-into-one-commit-per-file/), and turned it into a git alias.
-And let’s be honest — Git aliases are better than gems.
+And let’s be honest here, git aliases are better than gems.
 This one has saved me countless minutes of brain-numbing grunt work.
 It's a little wild, a litle weird, some may call it overly comlex. But it gets the job done.
 
