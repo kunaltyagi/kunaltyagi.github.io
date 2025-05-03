@@ -172,7 +172,7 @@ You could trace what's happening here with a little understanding of git, bash a
 
 Once the curtain's lifted, the magic's all just ... plumbing. Well, *except* for:
 
-* [`porcelain`](https://git-scm.com/docs/git-status#Documentation/git-status.txt---porcelain)
+* [`--porcelain`](https://git-scm.com/docs/git-status#Documentation/git-status.txt---porcelain)
 * [`-uno`](https://git-scm.com/docs/git-status#Documentation/git-status.txt--ultmodegt) (What *is* Mattel doing here!?)
 * [`--soft reset`](https://git-scm.com/docs/git-reset#Documentation/git-reset.txt-Undoacommitandredo)
 * [`HEAD^`](https://git-scm.com/book/en/v2/Git-Tools-Revision-Selection).\
