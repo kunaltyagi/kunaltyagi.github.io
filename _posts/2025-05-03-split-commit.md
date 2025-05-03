@@ -7,7 +7,9 @@ author: kunaltyagi
 tags: git rebase shell programming dev
 ---
 
-Jump ahead to the [alias](#the-alias) and to the [summary](#summary)
+Turning my commit history from spaghetti to symphony.
+
+Or feel free to skip to the [alias](#the-alias) and the [summary](#summary), and pretend you didn't see the chaos. I won't be offended (just mildly devastated).
 
 Typical development advice goes that I should work on byte-sized chunks of work, be it a small feature or a well-defined bug post a long and harrowing debugging session.
 This allows my commits to be *neat*, with each commit telling the story of the pull request, one step at a time.
