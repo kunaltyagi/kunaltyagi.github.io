@@ -22,7 +22,7 @@ I've come too far to turn back and do it the "clean way."
 
 And now?
 Now it's all a mess.
-The bug is fixed, yes, but the commit history? A a dumpster fire.
+The bug is fixed, yes, but the commit history? A dumpster fire.
 A tangled mess rivaled only by a toddler left alone with a bowl of spaghetti while the babysitter went to fix a merge conflict.
 
 # The Alias
