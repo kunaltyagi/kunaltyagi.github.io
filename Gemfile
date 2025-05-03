@@ -1,6 +1,7 @@
 source 'http://rubygems.org'
 
-gem "jekyll"
+# gem "jekyll"
+gem "github-pages", "~> 232", group: :jekyll_plugins
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 
 group :jekyll_plugins do
@@ -11,4 +12,4 @@ group :jekyll_plugins do
     gem 'hawkins'                    # jekyll liveserve
 end
 
-gem "kramdown-parser-gfm", "~> 1.1"
+# gem "kramdown-parser-gfm", "~> 1.1"
