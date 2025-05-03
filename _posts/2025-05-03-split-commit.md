@@ -160,7 +160,7 @@ f() {
 f
 ```
 
-That's what the cool kids in C++ call [IIFE](https://en.wikipedia.org/wiki/Immediately_invoked_function_expression). A function followed by an immediate call to it.
+That's a function followed by an immediate call to it. Quite close to what the cool kids use: [IIFE](https://en.wikipedia.org/wiki/Immediately_invoked_function_expression).
 No arguments here.
 
 You could trace what's happening here with a little understanding of git, bash and some Bing-fu (don't @ me).
