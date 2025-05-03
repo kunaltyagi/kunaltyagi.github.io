@@ -5,6 +5,39 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
+# GitHub Pages:
+# lsi: false
+# safe: true
+# source: [your repo's top level directory]
+# incremental: false
+# highlighter: rouge
+# gist:
+#   noscript: false
+# kramdown:
+#   math_engine: mathjax
+#   syntax_highlighter: rouge
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - developer-tools
+plugins:
+#   - jekyll-coffeescript
+#   - jekyll-default-layout
+#   - jekyll-gist
+#   - jekyll-github-metadata
+#   - jekyll-optional-front-matter
+#   - jekyll-paginate
+#   - jekyll-readme-index
+#   - jekyll-titles-from-headings
+#   - jekyll-relative-links
+  - jekyll-feed
+  - jekyll-mentions
+  - jekyll-redirect-from
+  - jekyll-sitemap
+
+
 # Site settings
 title:            here-and-there
 subtitle:         A Bag-of-words with some trivia
@@ -14,7 +47,7 @@ language:         "en" # default language of the blog. Language codes: http://ww
 
 baseurl:          "/" # the subpath of your site, e.g. /blog
 url:              "" # the base hostname & protocol for your site. Have a look at robots.txt as well!
-permalink:        /blog/:categories/:title
+# permalink:        /blog/:categories/:title
 cover:            /assets/fuji.jpg
 disqus_shortname: "kunaltyagi"
 
@@ -26,12 +59,7 @@ kramdown:
   syntax_highlighter_opts:
     disable: true
 include: ['_pages']
-exclude: [vendor, "developer-tools"]
 plugins:
-  - jekyll-mentions
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-redirect-from
 
 compress_html:
   clippings: all
@@ -40,3 +68,4 @@ compress_html:
     envs: [local]
   blanklines: true
   startings: [head, body]
+
