@@ -52,7 +52,7 @@
         position: relative;
         margin-bottom: 25px;
 
-        
+
         p {
             margin: 0; /* jekyll generates paragraphs in figure elements */
         }
@@ -60,7 +60,7 @@
 
         &.left, &.right, &.large {
             margin-bottom:0;
-            
+
             figcaption {
                 position: static;
                 width: auto;
@@ -200,6 +200,21 @@
 }
 
 .post-content {
+    code:not([class]) {
+      box-shadow: 0 0 2pt 1pt cornflowerblue;
+      border-radius: 2pt;
+      padding-left: 2pt;
+      padding-right: 2pt;
+      margin-left: 1pt;
+      margin-right: 1pt;
+    }
+    code[class] {
+      box-shadow: 2pt 2pt 3pt 2pt cornflowerblue;
+      border-radius: 5pt;
+      margin-bottom: 2pt;
+      margin-top: 2pt;
+      padding: 5pt;
+    }
     img {
         cursor: pointer;
     }
