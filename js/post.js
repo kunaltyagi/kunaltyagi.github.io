@@ -138,7 +138,6 @@
                   (function() {
                       var dsq = document.createElement('script');
                       dsq.onerror = () => {
-                          console.error("Found it");
                           var err = document.getElementsByClassName("comment-error")[0];
                           err.style.display = "inline-block";
                       };
@@ -153,9 +152,8 @@
 
         $('.view-comments').click(function(){
            loadDisqusComments();
-            $(this).fadeOut(400);
         });
-        $('.comment-error').click(function(){
+        $('.hide-on-click').click(function(){
             $(this).fadeOut(400);
         });
 
