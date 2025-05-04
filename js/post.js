@@ -134,22 +134,30 @@
         */
         function loadDisqusComments() {
           if(config.disqus_shortname != ''){
-      		    var disqus_shortname = config.disqus_shortname;
-      		      (function() {
-      		          var dsq = document.createElement('script');
-                    dsq.type = 'text/javascript'; dsq.async = true;
-      		          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                var disqus_shortname = config.disqus_shortname;
+                  (function() {
+                      var dsq = document.createElement('script');
+                      dsq.onerror = () => {
+                          console.error("Found it");
+                          var err = document.getElementsByClassName("comment-error")[0];
+                          err.style.display = "inline-block";
+                      };
+                      dsq.type = 'text/javascript'; dsq.async = true;
+                      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
                     dsq.setAttribute('data-timestamp', + new Date());
-      		          (document.getElementsByTagName('head')[0] ||
-                      document.getElementsByTagName('body')[0]).appendChild(dsq);
-      			})();
-      		}
+                      (document.getElementsByTagName('head')[0] ||
+                       document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+            }
         }
 
         $('.view-comments').click(function(){
-      	   loadDisqusComments();
-      	    $(this).fadeOut(400);
-      	});
+           loadDisqusComments();
+            $(this).fadeOut(400);
+        });
+        $('.comment-error').click(function(){
+            $(this).fadeOut(400);
+        });
 
     });
 })(jQuery);
