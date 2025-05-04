@@ -46,7 +46,7 @@ keywords:         Kunal Tyagi kunaltyagi cv blog
 language:         "en" # default language of the blog. Language codes: http://www.w3schools.com/tags/ref_language_codes.asp
 
 baseurl:          "/" # the subpath of your site, e.g. /blog
-url:              "https://www.kuntyagi.xyz" # the base hostname & protocol for your site. Have a look at robots.txt as well!
+url:              "https://www.kunaltyagi.xyz" # the base hostname & protocol for your site. Have a look at robots.txt as well!
 # permalink:        /blog/:categories/:title
 permalink:        :year/:month/:day/:title:output_ext
 cover:            /assets/fuji.jpg
