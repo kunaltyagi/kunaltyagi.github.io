@@ -56,11 +56,10 @@ disqus_shortname: "kunaltyagi"
 sass:
     style: compressed
 markdown: kramdown
-kramdown:
-  syntax_highlighter_opts:
-    disable: true
+# kramdown:
+#  syntax_highlighter_opts:
+#    disable: true
 include: ['_pages']
-plugins:
 
 compress_html:
   clippings: all
