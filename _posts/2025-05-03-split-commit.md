@@ -5,6 +5,7 @@ menutitle: "git split"
 category: programming
 author: kunaltyagi
 tags: git rebase shell programming dev
+comments: true
 ---
 
 Turning my commit history from spaghetti to symphony.

@@ -50,7 +50,7 @@ url:              "" # the base hostname & protocol for your site. Have a look a
 # permalink:        /blog/:categories/:title
 permalink:        :year/:month/:day/:title:output_ext
 cover:            /assets/fuji.jpg
-disqus_shortname: "kunaltyagi"
+disqus_shortname: "ktyagi"
 
 # Build settings
 sass:
