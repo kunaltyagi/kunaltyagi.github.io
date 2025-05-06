@@ -1,5 +1,5 @@
 default:                                                      # Fallback if nothing is specified
-  initial:       robot_solidarność                            # used for author lookup in posts and for first two characters in the about page back button
+  initial:       robot_solidarność                            # same as author key to count posts and for first two characters in the about page back button
   name:          "Corín Tellado: Ultron"                      # used to display author name
   cover:         /assets/mountain-alternative-cover.jpg       # OPTIONAL: defines location of cover image in about page
   picture:       /assets/kenobi.png                           # OPTIONAL: author picture
@@ -24,7 +24,7 @@ default:                                                      # Fallback if noth
   s500px:                                                     # OPTIONAL: used in the about page
   reddit:                                                     # OPTIONAL: used in the about page
 gkenobi:
-  initial:       GKenobi
+  initial:       gkenobi
   name:          "General kenobi"
   cover:         /assets/mountain-alternative-cover.jpg
   picture:       /assets/kenobi.png
@@ -34,7 +34,7 @@ gkenobi:
   twitter:       "-"
   twitch:        "-"
 kunaltyagi:
-  initial:       ktyagi
+  initial:       kunaltyagi
   name:          "Kunal Tyagi"
   cover:         /assets/fuji.jpg
   picture:       /assets/kunaltyagi.jpg
