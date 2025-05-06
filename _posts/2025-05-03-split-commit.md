@@ -6,6 +6,7 @@ category: programming
 author: kunaltyagi
 tags: git rebase shell programming dev
 comments: true
+last_modified_at: 2025-05-05
 ---
 
 Turning my commit history from spaghetti to symphony.
